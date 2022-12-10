@@ -26,5 +26,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Run tests and collect coverage
+      run: pytest --cov .
     - name: Upload coverage reports to Codecov with GitHub Action
       uses: codecov/codecov-action@v3
