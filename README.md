@@ -1,6 +1,7 @@
 # GIMME-python
 
 ![workflow](https://github.com/ajpessoa/GIMME-python/actions/workflows/python-package.yml/badge.svg)
+[![codecov](https://codecov.io/gh/ajpessoa/GIMME-python/branch/main/graph/badge.svg?token=HDOESHJXAM)](https://codecov.io/gh/ajpessoa/GIMME-python)
 
 This package is a prototype of a port of the GIMME algorithm, originally developed by [GatesLab](https://github.com/GatesLab) as an R package.
 
