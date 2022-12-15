@@ -11,7 +11,6 @@ requires-python = ">=3.9"
 keywords = ["GIMME", "R"]
 license = {text = "GPL2"}
 authors = [ { name = "Ana Pinha", email = "f6860@ulusofona.pt" } ]
-dependencies = [ "numpy", "pandas", "rdata", "semopy" ]
 
 [project.scripts]
 pygimme = "GIMMEpython.main:run_from_cli"
