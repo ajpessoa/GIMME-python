@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GIMMEpython"
+version = "0.0.1"
+description = "GIMME python port (prototype)"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["GIMME", "R"]
+license = {text = "GPL2"}
+authors = [ { name = "Ana Pinha", email = "f6860@ulusofona.pt" } ]
+dependencies = [ "numpy", "pandas", "rdata", "semopy" ]
+
+[project.scripts]
+pygimme = "GIMMEpython.main:run_from_cli"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-v --tb=short --strict-markers"
+testpaths = [ "tests" ]
+xfail_strict = "true"

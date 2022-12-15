@@ -3,25 +3,24 @@
 ![workflow](https://github.com/ajpessoa/GIMME-python/actions/workflows/python-package.yml/badge.svg)
 [![codecov](https://codecov.io/gh/ajpessoa/GIMME-python/branch/main/graph/badge.svg?token=HDOESHJXAM)](https://codecov.io/gh/ajpessoa/GIMME-python)
 
-This package is a prototype of a port of the GIMME algorithm, originally developed by [GatesLab](https://github.com/GatesLab) as an R package.
-
-GIMME (Group Iterative Multiple Model Estimation) is an algorithm for data-driven model searches in various individuals and collected across multiple points in time
+This package calculates the structural equation models for individuals from a time series dataset of multiple individuals. 
+The package includes a dataset example from the GIMME package in R.
 
 ## Requirements
 
-To run the function the data must be in a single excell file. Each dataset (dataframe) must be in a separate worksheet.
+This package requires semopy and rdata
 
 ## Installation
 
-How to install the package will be here
 
 ## Usage
 
-Here I'll explain how to use it (if I can figure it out...)
+run the file main.py
+
     
 ## References
 
- - Gates Research Group [page](https://gateslab.web.unc.edu/programs/gimme/)
+ - Semopy [reference](https://semopy.com)
 
  - Gimme R [package](https://cran.r-project.org/web/packages/gimme/index.html)
 
