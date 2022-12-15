@@ -1,19 +1,16 @@
 # GIMME-python
 
-This package is a port of the GIMME algorithm, originally developed by [GatesLab](https://github.com/GatesLab) as an R package.
+[!workflow](https://github.com/ajpessoa/GIMME-python/actions/workflows/python-package.yml/badge.svg)
 
-GIMME (Group Iterative Multiple Model Estimation) is an algorithm for  data-driven model searches in various individuals and collected across multiple points in time
+This package is a prototype of a port of the GIMME algorithm, originally developed by [GatesLab](https://github.com/GatesLab) as an R package.
 
-## Motivation
-
-Why am I doing this again?...
+GIMME (Group Iterative Multiple Model Estimation) is an algorithm for data-driven model searches in various individuals and collected across multiple points in time
 
 ## Requirements
 
-Future requirements for this package
+To run the function the data must be in a single excell file. Each dataset (dataframe) must be in a separate worksheet.
 
-
-## Installation 
+## Installation
 
 How to install the package will be here
 
