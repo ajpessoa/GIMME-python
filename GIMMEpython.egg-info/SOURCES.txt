@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+GIMMEpython/__init__.py
+GIMMEpython/gimmeSEM.py
+GIMMEpython/main.py
+GIMMEpython.egg-info/PKG-INFO
+GIMMEpython.egg-info/SOURCES.txt
+GIMMEpython.egg-info/dependency_links.txt
+GIMMEpython.egg-info/entry_points.txt
+GIMMEpython.egg-info/requires.txt
+GIMMEpython.egg-info/top_level.txt
